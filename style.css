@@ -9,7 +9,7 @@
 
 }
 body{
-    background: ;
+    background: rgb(217, 211, 211);
 }
 
  #logo  h1{
@@ -142,7 +142,8 @@ body{
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
-
+     font-weight: 600;
+     letter-spacing: 1.5px;
 }
 
 .button {
@@ -258,14 +259,27 @@ body{
     margin-left: 50px;
     width: 500px;
     border-radius: 1rem;
+    transition: transform .5s;
+  }
+  .img img:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
   }
   .img1 img{
     margin-right: 80px;
     width: 500px;
     border-radius: 1rem;
+    transition: transform .5s;
+  }
+  .img1 img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
   }
 #home p{
     padding:25px;
+
 }
 .h-primary {
     font-size: 3.8rem;
@@ -283,7 +297,15 @@ body{
     color:#29721b;
     text-transform: uppercase;
 }
-
+.h-primary2 {
+    font-size: 61px;
+    margin-top: 27px;
+    /* margin-bottom: -6px; */
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 2px;
+    color:#29721b;
+    text-transform: uppercase;
+}
 .center {
     text-align: center;
 
@@ -345,6 +367,7 @@ body{
     gap: 2rem;
     padding: 0px 30px;
     margin-top: 2rem;
+    
   }
   .feature .feature-card{
     display: flex;
@@ -353,26 +376,28 @@ body{
     gap: 2rem;
     padding: 0px 30px;
     margin-top: 2rem;
+    
   }
   .feature-card .card{
     padding: 30px 30px;
     text-align: center;
     border: 1px solid #686565;
     width: 230px;
-    
+    box-shadow: 10px 10px 6px rgb(89, 202, 83);
+    /* box-shadow:10px 10px #5ca74d; */
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
   }
   .feature-card .card:hover{
-    background-color: #c2d8e3;
+    background-color: #d3efd2dd;
   }
   .feature-card .card i{
     color: #29721b;
   }
 
   .feature-card .card h4{
-    color: #29721b;
+    color: #053e03;
     font-weight: 600;
     font-size: 20px;
     padding: 2%;
