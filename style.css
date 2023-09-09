@@ -272,6 +272,75 @@
     background-color: #2f16aec9;
     color: bisque;
 }
+
+.section1{
+    margin-top: 4rem;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Bree Serif', serif;
+  }
+  .heading{
+    text-align: center;
+  }
+  .heading h4{
+    font-size: 4.5rem;
+    color: #172153;
+    padding: 1rem;
+  }
+  .heading p{
+    font-size: 1.5rem;
+    color: #172153;
+    padding: 1rem;
+  }
+  .section1 .feature-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0px 30px;
+    margin-top: 2rem;
+  }
+  .feature .feature-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0px 30px;
+    margin-top: 2rem;
+  }
+  .feature-card .card{
+    padding: 30px 30px;
+    text-align: center;
+    border: 1px solid #686565;
+    width: 230px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .feature-card .card:hover{
+    background-color: #c2d8e3;
+  }
+  .feature-card .card i{
+    color: #2f327d;
+  }
+
+  .feature-card .card h4{
+    color: #2f327d;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+  
+  .feature-card .card p{
+    color: #585d68;
+    font-size: 1.2rem;
+  }
+  
+    
+
+
 /* Client section */
 #client-section {
     height: 344px;
