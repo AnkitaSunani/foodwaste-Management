@@ -8,6 +8,35 @@
     --navbar-height: 59px;
 
 }
+#navbar .topnav-right{
+    display:flex;
+    align-items: center;
+    margin-left: 30%;
+
+}
+/* #navbar .topnav-right {
+    float: right;
+  } */
+#navbar .topnav-right a{
+    border-radius: 20px;
+     margin-right: 0px;
+    margin-left: 9px; 
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition:all .50s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+    padding: 3px 16px;
+}
+#navbar .topnav-right a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+
 
 /* NAVIGATION BAR */
 #navbar {
@@ -53,6 +82,7 @@
     border-radius: 20px;
     text-decoration: none;
     text-transform: uppercase;
+    transition:all .50s ease;
 }
 
 #navbar ul li a:hover {
