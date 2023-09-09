@@ -9,7 +9,7 @@
 
 }
 body{
-    background: ;
+ 
 }
 
  #logo  h1{
@@ -434,7 +434,7 @@ body{
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: rgb(57, 202, 115);
+    background: rgb(57, 202, 110);
     border-radius: 10px;
     font-family: 'Bree Serif', serif;
 
@@ -468,20 +468,21 @@ body{
     display: block;
   }
   footer{
-    margin-top: 5px;
+    margin: 5px;
 }
 .foot-panel1{
-    background-color: #37475a;
-    color: white;
-    height: 50px;
+    color: #29721b;
     display: flex;
+    margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
-    font-size: 0.85rem
+    font-size: 4rem;
+    font-family: 'Bree Serif', serif;
+    font-weight: 600;
 }
 
 .foot-panel2{
-    background-color: #222f3d;
+    background-color: rgb(99, 160, 109);
     color: white;
     height: 280px;
     display: flex;
