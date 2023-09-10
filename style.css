@@ -8,9 +8,13 @@
     --navbar-height: 59px;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
 
     background: rgb(217, 211, 211);
+ 
 
 }
 
@@ -74,6 +78,9 @@ body{
 #navbar ul {
     display: flex;
     font-family: 'Bree Serif', serif;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 580;
 
 }
 
@@ -84,7 +91,7 @@ body{
 
 }
 
-#navbar ul li a {
+#navbar ul li  a {
     color: rgb(14, 14, 14);
     display: block;
     padding: 22px 17px;
@@ -366,7 +373,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
     padding: 0px 30px;
     margin-top: 2rem;
     
@@ -511,53 +518,79 @@ body{
 .foot-panel2{
     background-color: rgb(99, 160, 109);
     color: white;
-    height: 280px;
+    padding: 3%;
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Bree Serif', serif;
 }
 ul {
-margin-top: 20px;
+margin-top: 10px;
 }
 ul a {
     display: block;
-    font-size: 0.85rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     color: #dddddd;
+    text-align: center;
 }
 ul p{
-    font-size: 0.9rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
+   
+}
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  gap:1rem ;
+
 }
 
-.foot-panel3{
-    background-color: #222f3d;
-    color: white;
-    border: 0.5px solid orange;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flex-column-form {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+  font-size: 1.5rem;
+  font-weight: 50;
+  gap:1rem ;
+  margin: 10px 40px;
+  font-family: 'Bree Serif', serif;
 }
-.logo3{
-    background-image: url("amazon_logo.png");
-    background-size: cover;
-    height: 74px;
-    width: 150px;
-    padding-bottom: 2px;
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #c4c6be;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 6px 52px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  border: 0;
+  gap: 1rem;
+  font-family: 'Bree Serif', serif;
 }
+
+.btn-primary:hover {
+  background-color: #848482;
+}
+
+
 
 .foot-panel4{
-    background-color: #0f1111e7;
+    background-color: #2a8454e7;
     color: white;
-    height: 65px;
+    height: 50px;
+    font-family: 'Bree Serif', serif;
+   padding: 3%;
+    font-weight: 300;
+   
 }
 .pages{
-    font-size: 0.75rem;
+    font-size: 1.3rem;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 0px;
 }
 .copyright{
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 2px;
 }
