@@ -31,15 +31,13 @@ body{
     font-size: 28px;
     
   }
-  form{
-    
-  }
+  
   .input input{
     width:100%;
     font-size:20px;
     border:.5px solid #63707E;
     border-radius: 6px;
-    padding:14px 15px;
+    padding:10px 10px;
     box-sizing:border-box;
     margin:5px 0px 15px;
     color:black;
