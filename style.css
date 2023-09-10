@@ -11,8 +11,6 @@
 body{
 
     background: rgb(217, 211, 211);
-=======
- 
 
 }
 
@@ -81,7 +79,7 @@ body{
 
 #navbar ul li {
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     font-weight: 580;
 
 }
