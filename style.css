@@ -179,26 +179,28 @@ body{
     display: flex;
 }
 
-#services .box1 {
-    /* border:2px solid brown; */
-    padding: 34px;
-    margin: 14px 91px;
+#services .box {
+    padding: 40px;
+    margin: 49px 28px;
     border-radius: 45px;
     margin-bottom: 20px;
     background-color: #9de7b0;
+    box-shadow: 10px 10px 6px rgb(89, 202, 83);
+    transition: transform .2s;
+
+}
+#services .box:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
-#services .box1 img {
-    height: 160px;
-    margin: auto;
-    display: block;
-}
 
-#services .box1 p {
+#services .box p {
     font-family: 'Bree Serif', serif;
 }
 
-.box1 h2 {
+.box h2 {
     font-size: 2.2rem;
     padding: 12px;
     font-family: 'Bree Serif', serif;
@@ -206,31 +208,6 @@ body{
 }
 
 
-#services .box2 {
-    /* border:2px solid brown; */
-    padding: 9px;
-    margin: 1px 177px;
-    border-radius: 45px;
-    margin-bottom: 20px;
-    background-color: #9de7b0;
-}
-
-#services .box2 img {
-    height: 160px;
-    margin: auto;
-    display: block;
-}
-
-#services .box2 p {
-    font-family: 'Bree Serif', serif;
-}
-
-.box2 h2 {
-    font-size: 2.2rem;
-    padding: 39px;
-    font-family: 'Bree Serif', serif;
-    font-weight: 300;
-}
 
 .tool .main{
     display: flex;
@@ -331,24 +308,19 @@ body{
     border: 2px solid rgb(16, 120, 32);
     background-color: rgb(253, 253, 253);
     color: rgb(1, 1, 1);
-    margin: 26px 140px;
+    margin: 26px 185px;
     font-size: 1.2rem;
     font-family: 'Bree Serif', serif;
     border-radius: 20px;
     cursor: pointer;
+}
+.btn1:hover {
+
+  background-color: #2f16aec9;
+  color: bisque;
 }
 
-.btn2 {
-    padding: 6px 20px;
-    border: 2px solid rgb(16, 120, 32);
-    background-color: rgb(253, 253, 253);
-    color: rgb(1, 1, 1);
-    margin: 23px 229px;
-    font-size: 1.2rem;
-    font-family: 'Bree Serif', serif;
-    border-radius: 20px;
-    cursor: pointer;
-}
+
 
 .btn:hover {
 
