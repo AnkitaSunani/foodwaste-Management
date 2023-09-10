@@ -14,6 +14,7 @@ html{
 body{
 
     background: rgb(217, 211, 211);
+    width: 100%;
  
 
 }
@@ -25,7 +26,7 @@ body{
 #navbar .topnav-right{
     display:flex;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 24%;
 
 }
 /* #navbar .topnav-right {
@@ -40,7 +41,7 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Bree Serif', serif;
-    padding: 22px 19px;
+    padding: 33px 23px;
     
 
 }
@@ -79,7 +80,6 @@ body{
     display: flex;
     font-family: 'Bree Serif', serif;
     list-style: none;
-    font-size: 1.3rem;
     font-weight: 580;
 
 }
@@ -94,11 +94,12 @@ body{
 #navbar ul li  a {
     color: rgb(14, 14, 14);
     display: block;
-    padding: 22px 17px;
+    padding: 30px 12px;
     /* border-radius: 20px; */
     text-decoration: none;
     text-transform: uppercase;
     transition:all .50s ease;
+    font-size: 1.3rem;
 }
 
 #navbar ul li a:hover {
@@ -524,7 +525,7 @@ body{
     font-family: 'Bree Serif', serif;
 }
 ul {
-margin-top: 10px;
+margin-top: -7px;
 }
 ul a {
     display: block;
